@@ -1,35 +1,33 @@
-## Welcome to GitHub Pages of Ashutosh
+## Repository of NodeJS related links
 
-### Repository of NodeJS related links
+I will be populating the portal with many-juicy nodejs best practices and frameworks I have gathered.
 
 #### Memory Leaks
 You can use the [editor on GitHub](https://github.com/ashutoshkumars/myweb/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-https://medium.com/tech-tajawal/memory-leaks-in-nodejs-quick-overview-988c23b24dba
-https://marmelab.com/blog/2018/04/03/how-to-track-and-fix-memory-leak-with-nodejs.html
-https://www.toptal.com/nodejs/debugging-memory-leaks-node-js-applications
-https://pm2.io/docs/plus/guide/installation/#install-cpumemory-profiling
-https://nodesource.com/blog/memory-leaks-demystified
-
-https://github.com/nodejs/help/issues/947
-https://www.valentinog.com/blog/node-usage/
-https://www.nearform.com/blog/how-to-self-detect-a-memory-leak-in-node/
-https://medium.com/yld-blog/cpu-and-i-o-performance-diagnostics-in-node-js-c85ea71738eb
-https://blog.bitsrc.io/memory-leaks-in-nodejs-54ac7bbd4173
-https://marmelab.com/blog/2018/04/03/how-to-track-and-fix-memory-leak-with-nodejs.html
-https://github.com/lloyd/node-memwatch
-https://stackoverflow.com/questions/58875158/nodejs-memory-growth-memory-leak-in-system
-https://stackoverflow.com/questions/59474575/pm2-incorrect-memory-usage-reading-possible-memory-leak-with-node-js-applica
-https://www.phusionpassenger.com/library/walkthroughs/start/nodejs.html
-https://github.com/lovell/sharp/issues/1803
-https://github.com/Unitech/pm2/issues/1453
-https://nodesource.com/blog/memory-leaks-demystified
-https://marmelab.com/blog/2018/04/03/how-to-track-and-fix-memory-leak-with-nodejs.html
-
-https://medium.com/tech-tajawal/memory-leaks-in-nodejs-quick-overview-988c23b24dba
-https://medium.com/@mohdgadi52/testing-application-without-creating-a-mess-af1a26e9c2c4
+- https://medium.com/tech-tajawal/memory-leaks-in-nodejs-quick-overview-988c23b24dba
+- https://marmelab.com/blog/2018/04/03/how-to-track-and-fix-memory-leak-with-nodejs.html
+- https://www.toptal.com/nodejs/debugging-memory-leaks-node-js-applications
+- https://pm2.io/docs/plus/guide/installation/#install-cpumemory-profiling
+- https://nodesource.com/blog/memory-leaks-demystified
+- https://github.com/nodejs/help/issues/947
+- https://www.valentinog.com/blog/node-usage/
+- https://www.nearform.com/blog/how-to-self-detect-a-memory-leak-in-node/
+- https://medium.com/yld-blog/cpu-and-i-o-performance-diagnostics-in-node-js-c85ea71738eb
+- https://blog.bitsrc.io/memory-leaks-in-nodejs-54ac7bbd4173
+- https://marmelab.com/blog/2018/04/03/how-to-track-and-fix-memory-leak-with-nodejs.html
+- https://github.com/lloyd/node-memwatch
+- https://stackoverflow.com/questions/58875158/nodejs-memory-growth-memory-leak-in-system
+- https://stackoverflow.com/questions/59474575/pm2-incorrect-memory-usage-reading-possible-memory-leak-with-node-js-applica
+- https://www.phusionpassenger.com/library/walkthroughs/start/nodejs.html
+- https://github.com/lovell/sharp/issues/1803
+- https://github.com/Unitech/pm2/issues/1453
+- https://nodesource.com/blog/memory-leaks-demystified
+- https://marmelab.com/blog/2018/04/03/how-to-track-and-fix-memory-leak-with-nodejs.html
+- https://medium.com/tech-tajawal/memory-leaks-in-nodejs-quick-overview-988c23b24dba
+- https://medium.com/@mohdgadi52/testing-application-without-creating-a-mess-af1a26e9c2c4
 
 
 What I'd do is start node with node --perf_basic_prof and once it starts spinning, check with perf top -p <pid> what it's doing. At the very least that should tell you if it's actually scavenging.
